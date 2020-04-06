@@ -22,7 +22,7 @@ public class DisplayLibrary {
     File file = null;
     Scanner input = null;
     try {
-      file = new File("../../../../inputs/book.list");
+      file = new File("inputs/book.list");
       input = new Scanner(file);
     } catch (FileNotFoundException noFile) {
       System.exit(0);

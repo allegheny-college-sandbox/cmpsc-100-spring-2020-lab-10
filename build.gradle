@@ -20,7 +20,7 @@ repositories {
 }
 
 apply plugin: 'application'
-mainClassName = 'bibliotech.DisplayLibrary'
+mainClassName = 'labten.DisplayLibrary'
 
 
 apply plugin: 'checkstyle'
