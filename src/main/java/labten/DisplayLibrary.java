@@ -35,6 +35,8 @@ public class DisplayLibrary {
     Scanner entry = null;
     ArrayList<Book> library = new ArrayList<Book>();
     
+    // Do the loop
+    
     while (input.hasNextLine()) {
       book = new Book();
       entry = new Scanner(input.nextLine());
@@ -65,6 +67,8 @@ public class DisplayLibrary {
     System.out.println("This library contains " + library.size() + " books.");
     System.out.println();
     
+    // Loop over library object
+    
     int index = 0;
     while (index < library.size()) {
       book = library.get(index);
@@ -72,6 +76,8 @@ public class DisplayLibrary {
       totalWidth += book.getWidth();
       index++;
     }
+    
+    // Print results
     
     DecimalFormat fmt = new DecimalFormat("#.##");
     System.out.println("It takes up " + fmt.format(totalWidth / 12) + " linear feet of shelf space.");

@@ -1,7 +1,5 @@
 # Lab 10 Reflection: Solutions Repository
 
-TODO: Write reflection
-
 ## Paste the line initializing your ArrayList below in the code block.
 
 ```java
