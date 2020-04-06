@@ -41,8 +41,8 @@ public class DisplayLibrary {
       book = new Book();
       entry = new Scanner(input.nextLine());
       entry.useDelimiter("\t");
-      while(entry.hasNext()) {
-        switch(column) {
+      while (entry.hasNext()) {
+        switch (column) {
           case 1:
             book.setTitle(entry.next());
             break;
@@ -80,7 +80,8 @@ public class DisplayLibrary {
     // Print results
     
     DecimalFormat fmt = new DecimalFormat("#.##");
-    System.out.println("It takes up " + fmt.format(totalWidth / 12) + " linear feet of shelf space.");
+    System.out.println("It takes up " + fmt.format(totalWidth / 12) 
+                       + " linear feet of shelf space.");
     
   }
 }

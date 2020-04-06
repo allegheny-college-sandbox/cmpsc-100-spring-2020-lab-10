@@ -19,7 +19,7 @@ public class Book {
     this.title = title;
   }
   
-  /** Sets a book author
+  /** Sets a Book's author.
    *
    * @param author Book's author
    */
@@ -27,7 +27,7 @@ public class Book {
     this.author = author;
   }
   
-  /** Sets a book's pagecount, calculates width.
+  /** Sets a Book's pagecount, automatically calculates width.
    *
    * @param pages Book's page count
    */
@@ -43,7 +43,7 @@ public class Book {
     return this.width;
   }
   
-  /** Creates String representation of Bok.
+  /** Creates String representation of Book.
    *
    */
   public String toString() {
